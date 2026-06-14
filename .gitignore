@@ -1,0 +1,9 @@
+.venv/
+.env
+help.md
+.private
+.private/
+.private/hidden-05-hooks.py
+.private/autonomous.py
+.private/research-agent.py
+.private/self-updating-autonomous-agent.py
