@@ -39,9 +39,10 @@ source .venv/bin/activate
 python3 01-tools.py
 ```
 
+## GIT REPO URL 
+https://github.com/10xroadmap/antigravity-sdk-2.0-harness
 
 # License or Terms of Use
 This project is open-source. However, no part of the source code may be republished, modified, or distributed for commercial or public purposes without giving appropriate credit to the original author.
 
-## GIT REPO URL 
-https://github.com/10xroadmap/integrating-skills-with-google-adk-2.0.git 
+
