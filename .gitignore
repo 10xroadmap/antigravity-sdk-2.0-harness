@@ -1,5 +1,7 @@
 .venv/
 .env
+.agents
+.agents/
 help.md
 .private
 .private/
