@@ -1,12 +1,6 @@
 import asyncio
-import logging
-import sys
-from typing import Any
-
 from google.antigravity import Agent
 from google.antigravity import LocalAgentConfig
-from google.antigravity.hooks import hooks
-
 
 def get_funny_name(person: str) -> str:
     if person == "Bill Gates":
@@ -21,11 +15,10 @@ def get_funny_name(person: str) -> str:
         return "BackRub"
     return "I do not Know"
 
-
 async def main() -> None:
     config = LocalAgentConfig(tools=[get_funny_name])
     async with Agent(config) as root_agent:
-        prompt = "What is the funny name of  Dennis Ritchie ?"
+        prompt = "What is the funny name of Dennis Ritchie ?. Print funny name only"
         print(f"  User: {prompt}")
         response = await root_agent.chat(prompt)
         content = await response.text()

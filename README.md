@@ -2,6 +2,8 @@
 - This repository contains sample programs demonstrating Antigravity SDK 2.0 Harness.
 - This includes Tools, Hooks and Observability.
 
+## Youtube Video
+https://youtu.be/FO2S2EXjTQM 
 ## What do you need to run these programs
 - Make sure python 3.11.X or higher is installed
 - Make sure we have `.env` file with GEMINI_API_KEY
